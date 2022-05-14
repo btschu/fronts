@@ -35,6 +35,17 @@ class LinkedList {
         this.head = this.head.next;
         return this;
     }
+    // print the data as an array
+    printAsArray(){
+        var runner = this.head;
+        var arr = [];
+        while (runner){
+            arr.push(runner.data);
+            runner = runner.next;
+        }
+        console.log(arr);
+        return this;
+    }
 }
 
 
@@ -52,3 +63,4 @@ firstList.addFront(11).addFront(9).addFront(8).addFront(6).addFront(3);
 console.log("front = ",firstList.front());
 firstList.removeFront()
 console.log("front = ",firstList.front());
+firstList.printAsArray()
