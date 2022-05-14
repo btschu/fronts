@@ -9,7 +9,7 @@ Write a method to return the value (not the node) at the head of the list. If th
 class SLL {
     // constructor, other methods, removed for brevity
      front() {
-    	
+
     }
  }
 ```
@@ -22,7 +22,7 @@ Write a method to remove the head node and return the new list head node. If the
 class SLL {
     // constructor, other methods, removed for brevity
      removeFront() {
-    	
+
     }
  }
 ```
@@ -35,7 +35,7 @@ Write a method that accepts a value and create a new node, assign it to the list
 class SLL {
      // constructor, other methods, removed for brevity
      addFront(value) {
-    	
+
     }
  }
  ```
